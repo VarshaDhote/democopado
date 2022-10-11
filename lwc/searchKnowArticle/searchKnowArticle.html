@@ -1,0 +1,48 @@
+<template>
+    <div class="slds-m-around_medium">
+      <div  class="slds-align_absolute-center">
+           <h1  style="text-align: center;"> Welcome  {name} ,</br><b style="font-size: 20px">How can we help you today?</b></h1> </div>
+        <div class="slds-m-bottom_small"   onkeyup={handleClick}>
+            <lightning-input 
+               type="search"
+               value={searchValue}
+               label=""
+               placeholder="Find Articles/Tickets"
+               onchange={searchKeyword}
+              
+               ></lightning-input>
+         </div>
+
+
+         <template if:true={areLightningCardVisible}>
+            <div class="slds-scrollable " style="height:5rem;width:24rem; width: 950px;">
+
+    <template for:each = {result} for:item="article">
+        <div class = "slds-box slds-p-around_none slds-m-top_x-small  slds-m-horizontal_none  slds-m-top_none "   
+                           key = {article.Id} >
+                         
+                             <!--  <lightning-layout-item size="3" padding="around-small" style="width:50rem;width: 900px" >-->
+                                   <lightning-card variant="narrow"  icon-name="standard:article"  style="width: 50px">
+                                      <h1 slot="title"  ><a onclick={navigateToKnowledgeArticle}  id={article.Id} >{article.Title }</a></h1> 
+                                       
+                                    
+                                      <!-- 
+                                       <p>
+                                           Article Number :- {article.ArticleNumber}
+                                           
+                                       </p>
+                                 
+                                       -->
+                                       
+                                    </lightning-card>
+                             <!--  </lightning-layout-item>-->
+
+                          
+
+        </div>          
+
+    </template>
+     </div>
+ </template>
+</div>
+</template>
