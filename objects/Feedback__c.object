@@ -164,4 +164,91 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <fields>
+        <fullName>Tell_us_how_we_can_improve__c</fullName>
+        <externalId>false</externalId>
+        <label>Tell us how we can improve</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>How_satisfied_are_you_with_our_team__c</fullName>
+        <externalId>false</externalId>
+        <label>How satisfied are you with our team?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Very Satisfied</fullName>
+                    <default>false</default>
+                    <label>Very Satisfied</label>
+                </value>
+                <value>
+                    <fullName>Satisfied</fullName>
+                    <default>false</default>
+                    <label>Satisfied</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Unsatisfied</fullName>
+                    <default>false</default>
+                    <label>Unsatisfied</label>
+                </value>
+                <value>
+                    <fullName>Very Unsatisfied</fullName>
+                    <default>false</default>
+                    <label>Very Unsatisfied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>How_satisfied_are_you_with_our_service__c</fullName>
+        <externalId>false</externalId>
+        <label>How satisfied are you with our service?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Very Satisfied</fullName>
+                    <default>false</default>
+                    <label>Very Satisfied</label>
+                </value>
+                <value>
+                    <fullName>Satisfied</fullName>
+                    <default>false</default>
+                    <label>Satisfied</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Unsatisfied</fullName>
+                    <default>false</default>
+                    <label>Unsatisfied</label>
+                </value>
+                <value>
+                    <fullName>Very Unsatisfied</fullName>
+                    <default>false</default>
+                    <label>Very Unsatisfied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
 </CustomObject>
