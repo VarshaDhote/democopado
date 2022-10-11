@@ -30,10 +30,7 @@
         <page>ChatBot_Report_List</page>
         <themeLayout>ChatBot_themeLayout_Default</themeLayout>
     </pageSetting>
-    <pageSetting>
-        <page>ChatBot_Action_Plan_Related_List</page>
-        <themeLayout>ChatBot_themeLayout_Default</themeLayout>
-    </pageSetting>
+    
     <pageSetting>
         <page>ChatBot_Linked_Article_Related_List</page>
         <themeLayout>ChatBot_themeLayout_Default</themeLayout>
