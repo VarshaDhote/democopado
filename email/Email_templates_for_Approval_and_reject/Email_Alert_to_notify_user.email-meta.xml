@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Email Alert to notify user</name>
+    <style>freeForm</style>
+    <subject>alert for case received</subject>
+    <textOnly>Dear {!Case.CreatedBy},
+
+The ticket for your request has been received  successfully.
+
+
+Ticket Reference Number : {!Case.CaseNumber}
+
+
+
+Regards,
+
+CaseMate Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

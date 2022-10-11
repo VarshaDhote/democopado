@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Email for Revert Case</name>
+    <style>freeForm</style>
+    <subject>The ticket has been reverted</subject>
+    <textOnly>Dear Agent,
+
+The ticket for {!Case.ServiceKA__Case_Type__c} ticket has been Reverted.
+
+
+
+Please have a look on it.
+
+
+
+Ticket Reference Number : {!Case.CaseNumber}.
+
+Click here to view the ticket details.
+
+
+
+
+
+
+
+
+
+Regards,
+
+CaseMate Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

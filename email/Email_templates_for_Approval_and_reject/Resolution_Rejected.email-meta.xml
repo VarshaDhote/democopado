@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Resolution Rejected</name>
+    <style>formalLetter</style>
+    <textOnly>Dear Agent,
+I regret to inform you that, ticket resolution has been rejected by requestor and ticket has been assigned to you for further process.
+
+Ticket Reference Number:{!Case.CaseNumber}
+
+Click here to View the ticket details.
+Thanks,
+
+KAPOC Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

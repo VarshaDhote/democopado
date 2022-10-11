@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="Arial, sans-serif" style="">Dear&nbsp;{!Case.OwnerFirstName}</font><div style=""><font face="Arial, sans-serif"><br></font></div><div style=""><font face="Arial, sans-serif"><br></font></div><div style=""><font face="Arial, sans-serif">Please provide your valuable feedback on case resolution.</font></div><div style=""><font face="Arial, sans-serif"><br></font></div><div style=""><font face="Arial, sans-serif"><a href="https://chatbot3-dev-ed.my.site.com/chatbot/s/case/{!Case.Id}/{!Case.Subject}">Click Here</a></font></div><div style=""><font face="Arial, sans-serif"><br></font></div><div style=""><font face="Arial, sans-serif"><br></font></div><div style=""><font face="Arial, sans-serif"><br></font></div><div style=""><font face="Arial, sans-serif">&nbsp;Regards,</font></div><div style=""><font face="Arial, sans-serif" style="">&nbsp;CaseMate Team</font></div>]]></td>
+</tr>
+</table>

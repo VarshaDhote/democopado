@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Others</name>
+    <style>freeForm</style>
+    <subject>{!Case.Case_Type__c} Ticket has been assigned to you.</subject>
+    <textOnly>Dear Agent,
+
+
+
+The Ticket has been assigned to you successfully.
+
+Ticket Reference Number: {!Case.CaseNumber}
+
+Click here to View the ticket details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thanks,
+
+KAPOC Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

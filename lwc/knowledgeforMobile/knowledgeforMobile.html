@@ -1,0 +1,17 @@
+<template>
+    <template if:true={articleList.data}>
+        <lightning-datatable
+                key-field="Id"
+                data={recordList}
+                columns={articlecolumn}
+                ow-row-number-column hide-checkbox-column 
+                 onrowaction={handleRowAction}
+                
+                >
+        </lightning-datatable>
+   </template>
+
+    <c-pagination  records={log}  onupdate={handlePagination}></c-pagination>
+
+   <!-- </div> --> 
+</template>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Reopen Case</name>
+    <style>freeForm</style>
+    <textOnly>Dear Agent,
+
+Case is being re open by the requestor. Please have a look on it.
+
+Ticket Reference Number: - {!Case.CaseNumber}
+
+click here to view the ticket details.
+
+
+Regards,
+CaseMate Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

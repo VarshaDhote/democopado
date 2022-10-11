@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>More Info needed on ticket</name>
+    <style>freeForm</style>
+    <subject>More Information needed on your ticket {!Case.CaseNumber}.</subject>
+    <textOnly>Dear {!Case.CreatedBy},
+
+We required more information regarding your case to process your request.
+
+Kindly provide it in the ticket comment section.
+
+Ticket Reference Number: - {!Case.CaseNumber}
+
+Click Here to View the ticket details..
+
+Thanks,
+KA POC Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

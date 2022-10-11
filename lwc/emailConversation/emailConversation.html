@@ -1,0 +1,93 @@
+<template>
+    <!-- <p>These layout items specify <code>size="4"</code>, or 4 columns of a 12 column grid. Each item occupies 33.33% of the width.</p> -->
+<div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">
+   
+    <lightning-layout multiple-rows>
+    
+        <lightning-layout-item size="8" padding="around-large"  style="margin-left: 20px;">
+           
+            <section>
+                <!-- <div class="custom-box slds-box slds-p-around_medium "> -->
+                    <lightning-card>
+                        <p  style="font-size:25px;color:orangered;text-align:center;font-family:'Verdana';" ><b>#{caseno} for {Subject}</b></p>       
+                   
+                        <template for:each={customers} for:item="cust">
+                            <lightning-card style=" white-space: nowrap" key={cust.Id} >
+                                <h3 slot="title">
+                                    <div class="wrapped-content">
+                                       
+                                        <p style="color:rgb(155, 153, 153) ;font-family:'Verdana'; overflow-wrap: break-word;"> <lightning-avatar variant="circle" size="large" src="/bad/image/url.jpg"  initials="" fallback-icon-name="custom:custom92"
+                                                alternative-text= {cust.TextBody} class="slds-m-right_small"></lightning-avatar> 
+                                                <b style="color:black ; "> {cust.Name}</b>,    {cust.CreatedDate} </p>
+                                                <!-- <p>{(cust)=> cust.CreatedDate.replace("T"," , " ) }</p> -->
+                                              {cust.casedate}
+                                                <section>
+                                                  <div>
+                                                   
+                                             <pre style="overflow-wrap:break-word;">
+                                                <p>{cust.CommentBody}</p>
+                                            </pre>
+                                        </div>
+                                            </section>
+                                           
+                                            
+                                   </div>
+                                </h3>
+                            </lightning-card>
+    
+                    </template>
+                 
+                  
+                </lightning-card>
+                <!-- </lightning-card> -->
+                   
+            <!-- </div>  -->
+       </section>
+    
+    </lightning-layout-item>     
+      
+              <lightning-layout-item size="3" padding="around-large">
+           
+               
+                <lightning-card>
+                    <p  style="font-size:15px;text-align:center;font-family:'Verdana';"><b>Agent Working on This Ticket</b></p>
+                      
+                        <template for:each={casedetails} for:item="cust">
+                            <lightning-card  key={cust.Id} >
+                                <h3 slot="title" style="font-family:'Verdana';">
+                                    <div >
+                                        <lightning-avatar variant="circle" size="large" src="/bad/image/url.jpg"  fallback-icon-name="custom:custom92"
+                                                alternative-text= {cust.Owner.Name} class="slds-m-right_small"></lightning-avatar> 
+                                             <b> {cust.Owner.Name}</b>
+                                             <!-- <p>{cust.Status}</p> -->
+                                            
+                                   </div>
+                                </h3>
+                            </lightning-card>
+                        </template>
+                    </lightning-card>
+                    <lightning-card>
+                        <template for:each={casedetails} for:item="cust">
+                            <lightning-card  key={cust.Id} >
+                                <h3 slot="title">
+                                    <div >
+                                        <!-- <lightning-avatar variant="circle" size="large" src="/bad/image/url.jpg"  fallback-icon-name="custom:custom92"
+                                                alternative-text= {cust.Owner.Name} class="slds-m-right_small"></lightning-avatar>  -->
+                                             <p>Ticket details</p><br>
+                                             <p style="font-family:'Verdana';"><b>Category:</b> <br> {cust.Product_Category__c }</p>
+                                             <br>
+                                             <p style="font-family:'Verdana';"><b>Status: <br> </b>{cust.Status} </p>
+                                             <br>
+                                             <p style="font-family:'Verdana';"><b>Priority: <br> </b>{cust.Case_Priority__c} </p>
+                                             <br>
+                                             <p style="font-family:'Verdana';"><b>Assigned to: <br> </b>{cust.Owner.Name} </p>
+                                   </div>
+                                </h3>
+                            </lightning-card>
+                        </template>
+                    </lightning-card>
+        </lightning-layout-item>
+       
+    </lightning-layout>
+</div>
+</template>

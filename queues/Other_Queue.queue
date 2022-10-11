@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Other Queue</name>
+    <queueMembers>
+        <users>
+            <user>vdhote@mail.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>others_queue_routing_configuration</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

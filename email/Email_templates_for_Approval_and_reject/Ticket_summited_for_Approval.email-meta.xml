@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Ticket summited for Approval</name>
+    <style>formalLetter</style>
+    <textOnly>Dear {!Case.CreatedBy} ,
+Your request has been resolved successfully by one of our trusted agent.
+
+Kindly give the resolution (Approve or Reject), so that we can make further action on your ticket.
+
+
+Ticket Reference Number:{!Case.CaseNumber}
+
+
+
+Click here  to View the ticket details.
+Thanks,
+
+KAPOC Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

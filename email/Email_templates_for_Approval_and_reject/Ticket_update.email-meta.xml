@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Ticket update</name>
+    <style>formalLetter</style>
+    <subject>Ticket Update</subject>
+    <textOnly>Dear {CaseRequestorNameDynamically},
+
+
+There has been action on your Ticket.
+
+Click here to view the ticket details-https://knowledgearticlespoc-dev-ed.lightning.force.com/100xxxx
+
+Thanks,
+
+KAPOC Team.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

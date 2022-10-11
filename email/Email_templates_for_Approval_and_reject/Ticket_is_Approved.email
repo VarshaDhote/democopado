@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><font style="" face="Times New Roman, Times, serif">Dear Agent</font><font style="font-family: arial;" face="Arial, sans-serif">,</font></div><div style="font-family: arial; font-size: 12pt;"><br></div>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<div style=""><div style=""><p style=""><font style="" face="Times New Roman, Times, serif">I would like to inform you that, the ticket resolution is accepted by requestor and ticket has been closed successfully.</font></p><p style=""><font face="Times New Roman, Times, serif"><br></font></p><p style=""><font face="Times New Roman, Times, serif">Ticket Reference Number:{!Case.CaseNumber}.</font></p><p style=""><font face="Times New Roman, Times, serif"><br></font></p><p style=""><font face="Times New Roman, Times, serif"><a href="https://chatbot3-dev-ed.my.site.com/chatbot/s/case/{!Case.Id}/{!Case.Subject}">Click here</a> to view the ticket details.</font></p><p style=""><font face="Times New Roman, Times, serif"><br></font></p><p style=""><font face="Times New Roman, Times, serif"><br></font></p><p style=""><font face="Times New Roman, Times, serif"><br></font></p><p style=""><font face="Times New Roman, Times, serif">Regards,</font></p><p style=""><font style="" face="Times New Roman, Times, serif">CaseMate Team</font></p></div></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<p style="font-family: &quot;Times New Roman&quot;; font-size: medium;"><br></p>]]></td>
+</tr>
+</table>
