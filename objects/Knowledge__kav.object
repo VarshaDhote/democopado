@@ -25,4 +25,184 @@
     <label>Knowledge</label>
     <pluralLabel>Knowledge</pluralLabel>
     <searchLayouts/>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Request</fullName>
+                    <default>false</default>
+                    <label>Request</label>
+                </value>
+                <value>
+                    <fullName>Support</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Answer__c</fullName>
+        <externalId>false</externalId>
+        <label>Answer</label>
+        <length>20000</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <description>This field is use to store category for Knowledge Article and use to show on Supplier Portal Search Page</description>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Invoicing</fullName>
+                    <default>false</default>
+                    <label>Invoicing</label>
+                </value>
+                <value>
+                    <fullName>Ordering</fullName>
+                    <default>false</default>
+                    <label>Ordering</label>
+                </value>
+                <value>
+                    <fullName>Profile update</fullName>
+                    <default>false</default>
+                    <label>Profile update</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <description>This field is use to set the priority of the knowledge article and based on this field value filter the knowledge article shown on the supplier portal search page</description>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <description>Question for FAQ</description>
+        <externalId>false</externalId>
+        <label>Question</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Attachment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Attach a file.</inlineHelpText>
+        <label>Attachment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>File</type>
+    </fields>
+    <fields>
+        <fullName>Product_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Product_Category</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Request_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Category</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Knowledge_Article__c</fullName>
+        <externalId>false</externalId>
+        <label>Knowledge Article</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Catalogue__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Service Catalogue</label>
+        <referenceTo>Service_Catalogue__c</referenceTo>
+        <relationshipLabel>Knowledge</relationshipLabel>
+        <relationshipName>Knowledge</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Service_Request_URL__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the full URL for the Remedyforce Service Request</inlineHelpText>
+        <label>Service Request URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Supplier_Portal_Article__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will be use for differentiating between normal knowledge article record and supplier portal knowledge article record.</description>
+        <externalId>false</externalId>
+        <label>Supplier Portal Article</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
 </CustomObject>

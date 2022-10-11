@@ -162,4 +162,24 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <fields>
+        <fullName>Ticket_Field_Set__c</fullName>
+        <externalId>false</externalId>
+        <label>Ticket Field Set</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ticket_Page_Layout_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Ticket Page Layout / Record Type</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
 </CustomObject>
