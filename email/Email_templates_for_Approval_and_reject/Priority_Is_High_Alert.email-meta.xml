@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Priority Is High Alert</name>
+    <style>freeForm</style>
+    <subject>Case Is On High Priority</subject>
+    <textOnly>Dear Agent,
+
+The case {!Case.CaseNumber}assigned to you is on high priority. Please provide a resolution before the allocated time of a case resolution.
+
+
+
+Click Here To view the details.
+
+
+
+Thanks,
+
+CaseMate Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

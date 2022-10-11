@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font style="" face="Times New Roman, Times, serif"><font style="color: rgb(0, 0, 0);">Dear</font><font style="color: rgb(0, 0, 0);">&nbsp;</font><font style="">{!Case.CreatedBy},</font></font>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p style="color: rgb(0, 0, 0); margin-right: 0px; margin-left: 0px; -webkit-font-smoothing: antialiased; box-sizing: border-box;"><font style="" face="Times New Roman, Times, serif">The ticket for your request has been created successfully.</font></p><p style="color: rgb(0, 0, 0); margin-right: 0px; margin-left: 0px; -webkit-font-smoothing: antialiased; box-sizing: border-box;"><font face="Times New Roman, Times, serif"><br></font></p><p style="margin-right: 0px; margin-left: 0px; -webkit-font-smoothing: antialiased; box-sizing: border-box;"><font face="Times New Roman, Times, serif"><font style="color: rgb(0, 0, 0);"><font style="">Ticket Reference Number :&nbsp;</font></font>{!Case.CaseNumber}</font></p><p style="margin-right: 0px; margin-left: 0px; -webkit-font-smoothing: antialiased; box-sizing: border-box;"><font face="Times New Roman, Times, serif"><br></font></p><p style="color: rgb(0, 0, 0); margin-right: 0px; margin-left: 0px; -webkit-font-smoothing: antialiased; box-sizing: border-box;"><font face="Times New Roman, Times, serif"><a href="https://chatbot3-dev-ed.my.site.com/chatbot/s/case/{!Case.Id}/{!Case.Subject}">Click here</a><a href="https://kaservicecloud-developer-edition.ap27.force.com/s/case/{!Case.Id}/detail" style="">&nbsp;</a>to view the ticket details.</font></p><p style="color: rgb(0, 0, 0); margin-right: 0px; margin-left: 0px; -webkit-font-smoothing: antialiased; box-sizing: border-box;"><font face="Times New Roman, Times, serif"><br></font></p><p style="color: rgb(0, 0, 0); margin-right: 0px; margin-left: 0px; -webkit-font-smoothing: antialiased; box-sizing: border-box;"><font face="Times New Roman, Times, serif"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Times New Roman, Times, serif">Regards,</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font style="" face="Times New Roman, Times, serif">CaseMate Team</font></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

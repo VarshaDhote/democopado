@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Ticket Closed Template for Requester</name>
+    <style>freeForm</style>
+    <subject>Ticket has been closed successfully {!Case.CaseNumber}.</subject>
+    <textOnly>Dear {!Case.CreatedBy},
+
+We are happy to inform you that your request has been resolved and ticket has been closed successfully.
+
+Thank you for contacting us.
+
+In future if you face any issue, feel free to reach us anytime!!
+
+
+
+Ticket Reference Number:{!Case.CaseNumber}
+
+Click View to View the ticket details.
+
+Please Provide your valuable feedback on this resolution.
+Click Here.
+
+
+
+Thanks,
+
+KAPOC Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

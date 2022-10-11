@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Send_Email_for_creation</letterhead>
+    <name>Ticket Resolution</name>
+    <style>formalLetter</style>
+    <textOnly>Dear Requestor, 
+
+Your Ticket has been resolved.
+
+Ticket id:[dynamic Case Id]
+Thanks,
+
+KA Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
