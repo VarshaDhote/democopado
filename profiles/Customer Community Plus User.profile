@@ -133,6 +133,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Accept_Revert_Resolution__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Brand__c</field>
         <readable>true</readable>
@@ -492,6 +497,10 @@
         <recordType>Case.Support_Tickett</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Bot_order__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>FAQ_kav__c</tab>
         <visibility>Hidden</visibility>

@@ -626,38 +626,6 @@
         <botDialogs>
             <botSteps>
                 <botMessages>
-                    <message>What would you like to do?</message>
-                    <messageIdentifier>4ade425a-041e-2434-a9ed-aaffdc1d1d3a</messageIdentifier>
-                </botMessages>
-                <stepIdentifier>a2c06476-d7fe-4725-b343-a0990c5f29dd</stepIdentifier>
-                <type>Message</type>
-            </botSteps>
-            <botSteps>
-                <botNavigation>
-                    <botNavigationLinks>
-                        <targetBotDialog>Get_Help_with_product_I_use_Purchased</targetBotDialog>
-                    </botNavigationLinks>
-                    <botNavigationLinks>
-                        <targetBotDialog>Chat_Live_with_one_of_our_Trusted_agents</targetBotDialog>
-                    </botNavigationLinks>
-                    <botNavigationLinks>
-                        <targetBotDialog>Create_a_Case</targetBotDialog>
-                    </botNavigationLinks>
-                    <botNavigationLinks>
-                        <targetBotDialog>Check_status_of_the_Case</targetBotDialog>
-                    </botNavigationLinks>
-                    <type>Redirect</type>
-                </botNavigation>
-                <stepIdentifier>70228fec-b105-4c78-aeca-ff9774aed552</stepIdentifier>
-                <type>Navigation</type>
-            </botSteps>
-            <developerName>after_yes</developerName>
-            <label>after yes</label>
-            <showInFooterMenu>false</showInFooterMenu>
-        </botDialogs>
-        <botDialogs>
-            <botSteps>
-                <botMessages>
                     <message>Sure!!</message>
                     <messageIdentifier>78a6a7b5-68d4-942d-2e7e-49b975f918b6</messageIdentifier>
                 </botMessages>
@@ -713,6 +681,38 @@
             <label>Create a Case</label>
             <mlIntent>Create_a_Case</mlIntent>
             <mlIntentTrainingEnabled>true</mlIntentTrainingEnabled>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>What would you like to do?</message>
+                    <messageIdentifier>4ade425a-041e-2434-a9ed-aaffdc1d1d3a</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>a2c06476-d7fe-4725-b343-a0990c5f29dd</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <targetBotDialog>Get_Help_with_product_I_use_Purchased</targetBotDialog>
+                    </botNavigationLinks>
+                    <botNavigationLinks>
+                        <targetBotDialog>Chat_Live_with_one_of_our_Trusted_agents</targetBotDialog>
+                    </botNavigationLinks>
+                    <botNavigationLinks>
+                        <targetBotDialog>Create_a_Case</targetBotDialog>
+                    </botNavigationLinks>
+                    <botNavigationLinks>
+                        <targetBotDialog>Check_status_of_the_Case</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Redirect</type>
+                </botNavigation>
+                <stepIdentifier>70228fec-b105-4c78-aeca-ff9774aed552</stepIdentifier>
+                <type>Navigation</type>
+            </botSteps>
+            <developerName>after_yes</developerName>
+            <label>after yes</label>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
         <botDialogs>
@@ -834,6 +834,43 @@
         </botDialogs>
         <botDialogs>
             <botSteps>
+                <botVariableOperation>
+                    <askCollectIfSet>true</askCollectIfSet>
+                    <botMessages>
+                        <message>Please Provide your email address</message>
+                        <messageIdentifier>46db7fa6-7d38-3a18-42d5-0e5799284a3a</messageIdentifier>
+                    </botMessages>
+                    <botVariableOperands>
+                        <disableAutoFill>true</disableAutoFill>
+                        <sourceName>_Text</sourceName>
+                        <sourceType>StandardMlSlotClass</sourceType>
+                        <targetName>Email</targetName>
+                        <targetType>ConversationVariable</targetType>
+                    </botVariableOperands>
+                    <optionalCollect>false</optionalCollect>
+                    <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                    <type>Collect</type>
+                    <variableOperationIdentifier>f58d0578-8179-9a9c-cfeb-38d3bad1cbd2</variableOperationIdentifier>
+                </botVariableOperation>
+                <stepIdentifier>77282d66-7926-41ee-9c22-6742b0cde74d</stepIdentifier>
+                <type>VariableOperation</type>
+            </botSteps>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <targetBotDialog>case_creation_for_email</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Redirect</type>
+                </botNavigation>
+                <stepIdentifier>7e4c4c0f-257b-4991-9f93-5b30158584b1</stepIdentifier>
+                <type>Navigation</type>
+            </botSteps>
+            <developerName>Email</developerName>
+            <label>Email</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
                 <botMessages>
                     <message>Sure!!</message>
                     <messageIdentifier>5c8bd511-ad22-c16e-df04-fed6ac106d97</messageIdentifier>
@@ -894,43 +931,6 @@
             </botSteps>
             <developerName>case_fields</developerName>
             <label>case value</label>
-            <showInFooterMenu>false</showInFooterMenu>
-        </botDialogs>
-        <botDialogs>
-            <botSteps>
-                <botVariableOperation>
-                    <askCollectIfSet>true</askCollectIfSet>
-                    <botMessages>
-                        <message>Please Provide your email address</message>
-                        <messageIdentifier>46db7fa6-7d38-3a18-42d5-0e5799284a3a</messageIdentifier>
-                    </botMessages>
-                    <botVariableOperands>
-                        <disableAutoFill>true</disableAutoFill>
-                        <sourceName>_Text</sourceName>
-                        <sourceType>StandardMlSlotClass</sourceType>
-                        <targetName>Email</targetName>
-                        <targetType>ConversationVariable</targetType>
-                    </botVariableOperands>
-                    <optionalCollect>false</optionalCollect>
-                    <quickReplyWidgetType>Buttons</quickReplyWidgetType>
-                    <type>Collect</type>
-                    <variableOperationIdentifier>f58d0578-8179-9a9c-cfeb-38d3bad1cbd2</variableOperationIdentifier>
-                </botVariableOperation>
-                <stepIdentifier>77282d66-7926-41ee-9c22-6742b0cde74d</stepIdentifier>
-                <type>VariableOperation</type>
-            </botSteps>
-            <botSteps>
-                <botNavigation>
-                    <botNavigationLinks>
-                        <targetBotDialog>case_creation_for_email</targetBotDialog>
-                    </botNavigationLinks>
-                    <type>Redirect</type>
-                </botNavigation>
-                <stepIdentifier>7e4c4c0f-257b-4991-9f93-5b30158584b1</stepIdentifier>
-                <type>Navigation</type>
-            </botSteps>
-            <developerName>Email</developerName>
-            <label>Email</label>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
         <botDialogs>
@@ -1312,6 +1312,11 @@
             <label>CaseNumber</label>
         </conversationVariables>
         <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>caseReturn</developerName>
+            <label>caseReturn</label>
+        </conversationVariables>
+        <conversationVariables>
             <dataType>Number</dataType>
             <developerName>cphone</developerName>
             <label>cphone</label>
@@ -1338,6 +1343,11 @@
         </conversationVariables>
         <conversationVariables>
             <dataType>Text</dataType>
+            <developerName>flowoutput</developerName>
+            <label>flowoutput</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
             <developerName>FName</developerName>
             <label>FirstName</label>
         </conversationVariables>
@@ -1358,9 +1368,24 @@
             <label>Open case</label>
         </conversationVariables>
         <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>Phone</developerName>
+            <label>Phone</label>
+        </conversationVariables>
+        <conversationVariables>
             <dataType>Number</dataType>
             <developerName>Phone_Number</developerName>
             <label>Phone Number</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>PreferredContact</developerName>
+            <label>PreferredContact</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>scasename</developerName>
+            <label>scasename</label>
         </conversationVariables>
         <conversationVariables>
             <dataType>Text</dataType>
@@ -1372,31 +1397,6 @@
             <dataType>Object</dataType>
             <developerName>test1</developerName>
             <label>test1</label>
-        </conversationVariables>
-        <conversationVariables>
-            <dataType>Text</dataType>
-            <developerName>caseReturn</developerName>
-            <label>caseReturn</label>
-        </conversationVariables>
-        <conversationVariables>
-            <dataType>Text</dataType>
-            <developerName>flowoutput</developerName>
-            <label>flowoutput</label>
-        </conversationVariables>
-        <conversationVariables>
-            <dataType>Text</dataType>
-            <developerName>Phone</developerName>
-            <label>Phone</label>
-        </conversationVariables>
-        <conversationVariables>
-            <dataType>Text</dataType>
-            <developerName>PreferredContact</developerName>
-            <label>PreferredContact</label>
-        </conversationVariables>
-        <conversationVariables>
-            <dataType>Text</dataType>
-            <developerName>scasename</developerName>
-            <label>scasename</label>
         </conversationVariables>
         <entryDialog>Welcome</entryDialog>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
