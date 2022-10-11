@@ -2,9 +2,8 @@
 <PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignments>
         <users>
-            <user>kirti@gmail.com</user>
-            <user>vdhote@mail.com</user>
-            <user>chatbot@yash.com</user>
+            <user>varshudhote@creative-panda-q4n7cj.com</user>
+          
         </users>
     </assignments>
     <capacity>20</capacity>
