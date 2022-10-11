@@ -483,7 +483,7 @@
     <fieldUpdates>
         <fullName>change_owner</fullName>
         <field>OwnerId</field>
-        <lookupValue>chatbot@yash.com</lookupValue>
+        <lookupValue>varshudhote@creative-panda-q4n7cj.com</lookupValue>
         <lookupValueType>User</lookupValueType>
         <name>change owner</name>
         <notifyAssignee>false</notifyAssignee>
