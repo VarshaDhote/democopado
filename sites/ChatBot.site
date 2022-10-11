@@ -24,7 +24,7 @@
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <serverIsDown>SNA_ChatBot1_sf_default_cdn_rmjhX</serverIsDown>
     <siteAdmin>varshudhote@creative-panda-q4n7cj.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>chatbot@yash.com</siteGuestRecordDefaultOwner>
+    <siteGuestRecordDefaultOwner>varshudhote@creative-panda-q4n7cj.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>chatbot</urlPathPrefix>
 </CustomSite>
