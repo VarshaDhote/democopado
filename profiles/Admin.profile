@@ -563,7 +563,7 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Knowledge__kav.FAQ</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Bot_order__c</tab>
