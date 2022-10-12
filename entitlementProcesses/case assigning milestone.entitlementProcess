@@ -19,7 +19,7 @@
         <minutesToComplete>5</minutesToComplete>
         <timeTriggers>
             <actions>
-                <name>Case.notify_requestor_about_case_received</name>
+                <name>notify_requestor_about_case_received</name>
                 <type>Alert</type>
             </actions>
             <timeLength>-3</timeLength>
