@@ -33,7 +33,8 @@
                     <type>decorator</type>
                     <value>340</value>
                 </componentInstanceProperties>
-               
+                <componentName>tspa:VideoSession</componentName>
+                <identifier>tspa_VideoSession</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
