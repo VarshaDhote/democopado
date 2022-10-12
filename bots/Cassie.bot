@@ -1312,11 +1312,6 @@
             <label>CaseNumber</label>
         </conversationVariables>
         <conversationVariables>
-            <dataType>Text</dataType>
-            <developerName>caseReturn</developerName>
-            <label>caseReturn</label>
-        </conversationVariables>
-        <conversationVariables>
             <dataType>Number</dataType>
             <developerName>cphone</developerName>
             <label>cphone</label>
@@ -1343,11 +1338,6 @@
         </conversationVariables>
         <conversationVariables>
             <dataType>Text</dataType>
-            <developerName>flowoutput</developerName>
-            <label>flowoutput</label>
-        </conversationVariables>
-        <conversationVariables>
-            <dataType>Text</dataType>
             <developerName>FName</developerName>
             <label>FirstName</label>
         </conversationVariables>
@@ -1368,24 +1358,9 @@
             <label>Open case</label>
         </conversationVariables>
         <conversationVariables>
-            <dataType>Text</dataType>
-            <developerName>Phone</developerName>
-            <label>Phone</label>
-        </conversationVariables>
-        <conversationVariables>
             <dataType>Number</dataType>
             <developerName>Phone_Number</developerName>
             <label>Phone Number</label>
-        </conversationVariables>
-        <conversationVariables>
-            <dataType>Text</dataType>
-            <developerName>PreferredContact</developerName>
-            <label>PreferredContact</label>
-        </conversationVariables>
-        <conversationVariables>
-            <dataType>Text</dataType>
-            <developerName>scasename</developerName>
-            <label>scasename</label>
         </conversationVariables>
         <conversationVariables>
             <dataType>Text</dataType>
@@ -1397,6 +1372,31 @@
             <dataType>Object</dataType>
             <developerName>test1</developerName>
             <label>test1</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>caseReturn</developerName>
+            <label>caseReturn</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>flowoutput</developerName>
+            <label>flowoutput</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>Phone</developerName>
+            <label>Phone</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>PreferredContact</developerName>
+            <label>PreferredContact</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>scasename</developerName>
+            <label>scasename</label>
         </conversationVariables>
         <entryDialog>Welcome</entryDialog>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
