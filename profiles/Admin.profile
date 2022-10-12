@@ -462,6 +462,10 @@
         <recordType>Case.Support_Tickett</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.testRequest</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Feedback__c-Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -549,6 +553,16 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.Support_Tickett</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.testRequest</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Knowledge__kav.FAQ</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
