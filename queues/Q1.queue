@@ -4,9 +4,7 @@
     <name>Q1</name>
     <queueMembers>
         <users>
-            <user>kirti@gmail.com</user>
-            <user>vdhote@mail.com</user>
-            <user>chatbot@yash.com</user>
+            <user>varshu@gmail.com</user>
         </users>
     </queueMembers>
     <queueRoutingConfig>Q1</queueRoutingConfig>

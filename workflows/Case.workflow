@@ -64,7 +64,7 @@
     </alerts>
     <alerts>
         <fullName>Email_to_Case_Send_Email</fullName>
-        <ccEmails>garimavyas215@gmail.com,kirtipathankar99@gmail.com</ccEmails>
+        <ccEmails>varshu@gmail.com</ccEmails>
         <description>Email to Case Send Email</description>
         <protected>false</protected>
         <recipients>
@@ -169,7 +169,7 @@
     </alerts>
     <alerts>
         <fullName>Send_Email_for_creation</fullName>
-        <ccEmails>nvanare@gmail.com</ccEmails>
+        <ccEmails>varshu@gmail.com</ccEmails>
         <description>Send email for creation</description>
         <protected>false</protected>
         <recipients>
@@ -184,7 +184,7 @@
     </alerts>
     <alerts>
         <fullName>Send_Others_queues</fullName>
-        <ccEmails>servicecasemate@gmail.com</ccEmails>
+        <ccEmails>varshu@gmail.com</ccEmails>
         <description>Send Others queues</description>
         <protected>false</protected>
         <recipients>
@@ -298,7 +298,7 @@
     </alerts>
     <alerts>
         <fullName>bot_creation_mail</fullName>
-        <ccEmails>varshudhote@gmail.com</ccEmails>
+        <ccEmails>varshu@gmail.com</ccEmails>
         <description>bot creation mail</description>
         <protected>false</protected>
         <recipients>
@@ -483,7 +483,7 @@
     <fieldUpdates>
         <fullName>change_owner</fullName>
         <field>OwnerId</field>
-        <lookupValue>chatbot@yash.com</lookupValue>
+        <lookupValue>varshudhote@creative-panda-q4n7cj.com</lookupValue>
         <lookupValueType>User</lookupValueType>
         <name>change owner</name>
         <notifyAssignee>false</notifyAssignee>
