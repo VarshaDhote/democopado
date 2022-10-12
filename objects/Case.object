@@ -2883,4 +2883,437 @@ IF( CONTAINS(&quot;Medium&quot;,Case_Priority__c),
             </values>
         </picklistValues>
     </recordTypes>
+    <recordTypes>
+        <fullName>testRequest</fullName>
+        <active>true</active>
+        <businessProcess>Request Ticket</businessProcess>
+        <label>testRequest</label>
+        <picklistValues>
+            <picklist>Accept_Revert_Resolution__c</picklist>
+            <values>
+                <fullName>Accept</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reopen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revert</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Brand__c</picklist>
+            <values>
+                <fullName>Apple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BPL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Croma</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DELL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Egate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Panasonic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Samsung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shopexo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sony</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wanbo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zebronics</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Type__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Category__c</picklist>
+            <values>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Printer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5060</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Complexity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Category__c</picklist>
+            <values>
+                <fullName>Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apps %26 Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Audio %26 Sound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bands %26 Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Battery %26 Charging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Battery %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Battery%2C Power %26 Charging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camera</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivery Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivery Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Device Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exchange</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Faulty Item</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Fitness</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missing Item</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of stock Item</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pairing %26 Connectivity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pairing Connectivity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Passwords %26 Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physical or Liquid Damage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Place Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refund time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remove Label</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repairs %26 Physical Damage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Return Gift Item</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Return Purchase</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Search Assistance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Setup %26 Usage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping Charges</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subscriptions %26 Purchases</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Track order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update%2C Backup%2C restore</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Item</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Submit_resolution__c</picklist>
+            <values>
+                <fullName>Submit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cate__c</picklist>
+            <values>
+                <fullName>Desktop and PC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Earphones %26 Headphones</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone and Tablets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>resolution_reverted__c</picklist>
+            <values>
+                <fullName>Revert</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
 </CustomObject>

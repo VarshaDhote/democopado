@@ -4,7 +4,7 @@
     <name>CaseMate Agents</name>
     <queueMembers>
         <users>
-            <user>varshu@gmail.com</user>
+            <user>chatbot@yash.com</user>
         </users>
     </queueMembers>
     <queueRoutingConfig>CaseMate_Agents</queueRoutingConfig>
