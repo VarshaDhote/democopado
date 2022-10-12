@@ -188,7 +188,7 @@
         <description>Send Others queues</description>
         <protected>false</protected>
         <recipients>
-            <recipient>vdhote@mail.com</recipient>
+            <recipient>varshu@gmail.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>DefaultWorkflowUser</senderType>
