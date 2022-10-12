@@ -88,7 +88,7 @@
         <minutesToComplete>1440</minutesToComplete>
         <timeTriggers>
             <actions>
-                <name>Case.changed_status_to_close</name>
+                <name>changed_status_to_close</name>
                 <type>FieldUpdate</type>
             </actions>
             <timeLength>1</timeLength>
