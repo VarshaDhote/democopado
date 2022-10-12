@@ -47,7 +47,7 @@
         <milestoneName>Case Escalation</milestoneName>
         <minutesToComplete>2880</minutesToComplete>
         <successActions>
-            <name>Case.caseStoppedUpdate</name>
+            <name>caseStoppedUpdate</name>
             <type>FieldUpdate</type>
         </successActions>
         <useCriteriaStartTime>true</useCriteriaStartTime>
